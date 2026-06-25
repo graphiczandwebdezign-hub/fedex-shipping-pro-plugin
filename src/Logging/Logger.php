@@ -1,0 +1,1 @@
+<?php namespace FedExShippingPro\Logging; class Logger { public static function info($m){ error_log($m);} }

@@ -1,0 +1,1 @@
+<?php namespace FedExShippingPro\Logging; class DatabaseLogger {}
