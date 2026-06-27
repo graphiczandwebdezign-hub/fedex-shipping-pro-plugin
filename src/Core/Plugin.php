@@ -8,6 +8,7 @@ use FedExShippingPro\Admin\DiagnosticsPage;
 use FedExShippingPro\Admin\TokenInspectorPage;
 use FedExShippingPro\Admin\OAuthTestPage;
 use FedExShippingPro\Admin\RateTestPage;
+use FedExShippingPro\Admin\ShipTestPage;
 
 class Plugin {
 
@@ -24,6 +25,7 @@ class Plugin {
             (new TokenInspectorPage())->register();
             (new OAuthTestPage())->register();
             (new RateTestPage())->register();
+            (new ShipTestPage())->register();
 
         });
     }

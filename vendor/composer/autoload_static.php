@@ -22,23 +22,6 @@ class ComposerStaticInit8edca7e9133df42e6e31a14d039d1121
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'FedExShippingPro\\Admin\\DiagnosticsPage' => __DIR__ . '/../..' . '/src/Admin/DiagnosticsPage.php',
-        'FedExShippingPro\\Admin\\OAuthTestPage' => __DIR__ . '/../..' . '/src/Admin/OAuthTestPage.php',
-        'FedExShippingPro\\Admin\\RateTestPage' => __DIR__ . '/../..' . '/src/Admin/RateTestPage.php',
-        'FedExShippingPro\\Admin\\SettingsPage' => __DIR__ . '/../..' . '/src/Admin/SettingsPage.php',
-        'FedExShippingPro\\Admin\\TokenInspectorPage' => __DIR__ . '/../..' . '/src/Admin/TokenInspectorPage.php',
-        'FedExShippingPro\\Api\\FedExApiClient' => __DIR__ . '/../..' . '/src/Api/FedExApiClient.php',
-        'FedExShippingPro\\Auth\\FedExAuthService' => __DIR__ . '/../..' . '/src/Auth/FedExAuthService.php',
-        'FedExShippingPro\\Core\\Container' => __DIR__ . '/../..' . '/src/Core/Container.php',
-        'FedExShippingPro\\Core\\Plugin' => __DIR__ . '/../..' . '/src/Core/Plugin.php',
-        'FedExShippingPro\\Core\\ServiceProvider' => __DIR__ . '/../..' . '/src/Core/ServiceProvider.php',
-        'FedExShippingPro\\Database\\Installer' => __DIR__ . '/../..' . '/src/Database/Installer.php',
-        'FedExShippingPro\\Logging\\DatabaseLogger' => __DIR__ . '/../..' . '/src/Logging/DatabaseLogger.php',
-        'FedExShippingPro\\Logging\\Logger' => __DIR__ . '/../..' . '/src/Logging/Logger.php',
-        'FedExShippingPro\\Rates\\FedExRatesService' => __DIR__ . '/../..' . '/src/Rates/FedExRatesService.php',
-        'FedExShippingPro\\WooCommerce\\Bootstrap' => __DIR__ . '/../..' . '/src/WooCommerce/Bootstrap.php',
-        'FedExShippingPro\\WooCommerce\\PackageBuilder' => __DIR__ . '/../..' . '/src/WooCommerce/PackageBuilder.php',
-        'FedExShippingPro\\WooCommerce\\ShippingMethod' => __DIR__ . '/../..' . '/src/WooCommerce/ShippingMethod.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
